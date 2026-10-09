@@ -1,0 +1,111 @@
+
+.react-tel-input .form-control {
+    border: none !important;
+    border-radius: 16px !important;
+    height: 100% !important;
+    width: 100% !important;
+    background-color: transparent !important;
+}
+
+.react-tel-input {
+    height: 100% !important;
+    border-radius: 16px !important;
+    background-color: transparent;
+}
+
+.flag-dropdown {
+    background-color: transparent !important;
+    border: none !important;
+    border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .flag-dropdown.open {
+    border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .selected-flag {
+    border-right: 1px solid #d4dbe3 !important;
+}
+
+.react-tel-input .selected-flag:hover,
+.react-tel-input .selected-flag:focus {
+    background-color: transparent !important;
+    border-radius: 16px 0 0 16px !important;
+}
+
+.react-tel-input .flag-dropdown.open .selected-flag {
+    border-radius: 16px 0 0 16px !important;
+    background-color: transparent !important;
+}
+
+input[type='number']::-webkit-outer-spin-button,
+input[type='number']::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+/* ========================================
+   HIDE ALL GOOGLE TRANSLATE UI
+   Translation works in background without UI
+   ======================================== */
+
+/* Hide Google Translate banner/frame */
+.goog-te-banner-frame,
+.skiptranslate,
+.goog-te-gadget,
+.goog-te-combo,
+#goog-gt-tt,
+.goog-te-balloon-frame,
+.goog-tooltip,
+.goog-tooltip:hover {
+    display: none !important;
+    visibility: hidden !important;
+    opacity: 0 !important;
+    height: 0 !important;
+    width: 0 !important;
+    position: absolute !important;
+    top: -9999px !important;
+    left: -9999px !important;
+}
+
+/* Hide all Google Translate related elements */
+body > .skiptranslate,
+body > .goog-te-banner-frame,
+.goog-te-banner-frame,
+.goog-te-gadget span,
+.goog-logo-link,
+.goog-te-gadget .goog-te-combo,
+.google-translate-widget {
+    display: none !important;
+}
+
+/* Prevent body top offset from Google Translate */
+body {
+    top: 0 !important;
+    position: static !important;
+}
+
+/* Hide translated tooltip on hover */
+.goog-text-highlight {
+    background-color: transparent !important;
+    box-shadow: none !important;
+}
+
+/* Hide attribution */
+.goog-te-gadget-simple,
+.goog-te-gadget img {
+    display: none !important;
+}
+
+/* Skip translate class - visible content stays visible */
+.notranslate {
+    background-color: transparent !important;
+}
+
+/* ========================================
+   END GOOGLE TRANSLATE STYLES
+   ======================================== */
